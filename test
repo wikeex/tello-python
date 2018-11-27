@@ -1,0 +1,26 @@
+command
+takeoff
+
+up 60
+left 50
+right 100
+left 50
+forward 100
+back 100
+forward 50
+back 50
+forward 50
+back 50
+left 50
+right 50
+cw 90
+forward 50
+right 50
+back 50
+ccw 90
+forward 50
+curve  50 50 50 0 100 100 60
+curve  -50 -50 -50 0 -100 -100 60
+curve  50 -50 50 0 -100 100 60
+curve -50 50 -50 0 100 -100 60
+land
