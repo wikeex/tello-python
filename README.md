@@ -5,5 +5,7 @@
 官方文档中的日志功能也删掉了，有需要的自行实现。
 
 使用python 3.6
+
 test是命令文件
+
 运行python command.py test命令来运行命令文件。
