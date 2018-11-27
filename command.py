@@ -5,7 +5,7 @@ file_name = sys.argv[1]
 with open(file_name, 'r') as f:
     commands = f.readlines()
 
-t1 = Tello(tello_ip='192.168.199.3', local_port=8889)
+t1 = Tello(tello_ip='192.168.199.3')
 
 for command in commands:
     command = command.strip()
