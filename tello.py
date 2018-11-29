@@ -40,7 +40,7 @@ class Tello:
     def action_result(self, command, future):
         response = future.result()[0].decode('utf-8')
         ip = future.result()[1]
-        print('%s, %s, %s' % (ip, command, response))
+        print('{0}, {1}, {2}'.format(ip, command, response))
         if response == 'ok':
             ...
         elif 'error' in response:
